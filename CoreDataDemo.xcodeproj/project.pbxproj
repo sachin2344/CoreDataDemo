@@ -14,6 +14,7 @@
 		50D17D0B24BE395300A0A80A /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50D17D0924BE395300A0A80A /* CoreDataDemo.xcdatamodeld */; };
 		50D17D0D24BE395800A0A80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D17D0C24BE395800A0A80A /* Assets.xcassets */; };
 		50D17D1024BE395800A0A80A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D17D0E24BE395800A0A80A /* LaunchScreen.storyboard */; };
+		50D17D1924BE408200A0A80A /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D17D1724BE408200A0A80A /* Person+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		50D17D0C24BE395800A0A80A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D17D0F24BE395800A0A80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50D17D1124BE395800A0A80A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D17D1724BE408200A0A80A /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		50D17CFF24BE395300A0A80A /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				50D17D1B24BE409E00A0A80A /* Model */,
 				50D17D0024BE395300A0A80A /* AppDelegate.swift */,
 				50D17D0224BE395300A0A80A /* SceneDelegate.swift */,
 				50D17D0424BE395300A0A80A /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				50D17D0924BE395300A0A80A /* CoreDataDemo.xcdatamodeld */,
 			);
 			path = CoreDataDemo;
+			sourceTree = "<group>";
+		};
+		50D17D1B24BE409E00A0A80A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50D17D1724BE408200A0A80A /* Person+CoreDataClass.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			files = (
 				50D17D0524BE395300A0A80A /* ViewController.swift in Sources */,
 				50D17D0B24BE395300A0A80A /* CoreDataDemo.xcdatamodeld in Sources */,
+				50D17D1924BE408200A0A80A /* Person+CoreDataClass.swift in Sources */,
 				50D17D0124BE395300A0A80A /* AppDelegate.swift in Sources */,
 				50D17D0324BE395300A0A80A /* SceneDelegate.swift in Sources */,
 			);
